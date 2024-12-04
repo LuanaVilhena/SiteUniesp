@@ -5,10 +5,10 @@ import { Box, Typography, Grid, Paper } from '@mui/material'
 const DpoLgpd = () => {
   return (
     <Box sx={{ p: 4, backgroundColor: '#f0f0f0', borderRadius: '8px' }}>
-      <Typography variant='h3' gutterBottom>
+      <Typography variant='h3' gutterBottom> //A margem vai ser 0
         DPO e LGPD
       </Typography>
-      <Paper elevation={3} sx={{ p: 3, mb: 4, backgroundColor: '#ffffff', borderRadius: '8px' }}>
+      <Paper elevation={3} sx={{ p: 3, mb: 4, backgroundColor: '#ffffff', borderRadius: '8px' }}> //No Paper a superfície fica elevada
         <Typography variant='body1' paragraph>
           A Lei Geral de Proteção de Dados (LGPD) é uma legislação brasileira que regula o tratamento de dados pessoais em diversos setores, tanto públicos quanto privados. Implementada para proteger a privacidade e os direitos dos titulares de dados, a LGPD impõe diretrizes rígidas para coleta, armazenamento e compartilhamento de informações pessoais.
         </Typography>
