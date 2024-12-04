@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu'
 
 const Navbar = () => {
-  const [anchorEl, setAnchorEl] = useState(null)
+  const [anchorEl, setAnchorEl] = useState(null) //O useState inicia com o valor nulo
 
   const handleMenuOpen = (event) => {
     setAnchorEl(event.currentTarget)
